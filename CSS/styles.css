@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: #026773;
+    min-height: 23vh;
+    width: 100vw;
+    position: relative;
+    
+}
+
+.git{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    margin: 10px;
+}
+
+.git:hover{
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+}
+
+.linkedin{
+    position: absolute;
+    bottom: 0px;
+    right: 90px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.linkedin:hover{
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+}
+
+
+.minha_foto{
+    width: 450px;
+    height: 450px;
+}
