@@ -7,9 +7,9 @@
 
 header{
     background-color: #026773;
-    min-height: 23vh;
-    width: 100vw;
-    position: relative;
+    height: 150px;
+    width: 100%;
+    position: fixed;
     
 }
 
@@ -23,7 +23,8 @@ header{
 .git:hover{
     background-color: black;
     border: none;
-    border-radius: 10px;
+    border-radius: 15px;
+    
 }
 
 .linkedin{
@@ -31,7 +32,7 @@ header{
     bottom: 0px;
     right: 90px;
     margin: 10px;
-    border-radius: 10px;
+ 
 }
 
 .linkedin:hover{
@@ -39,9 +40,23 @@ header{
     border: none;
     border-radius: 10px;
 }
-
-
-.minha_foto{
-    width: 450px;
-    height: 450px;
+main > .minha_foto{
+    height: 300px;
+    width: 300px;
+    margin: 100px;
+    padding: 100px;
+    border-radius: 50%;
+    
 }
+
+
+
+
+
+
+
+
+    
+    
+
+
