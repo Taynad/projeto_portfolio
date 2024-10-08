@@ -6,48 +6,95 @@
 }
 
 header{
-    background-color: #026773;
-    height: 150px;
-    width: 100%;
-    position: fixed;
+    
+    background-color: #FFD2C7;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;   
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+nav > a {
+    color: white;
+    margin: 25px;
+    font-size: 25px;
+    text-decoration: none;
+    
+}
+header > img {
+    height: 120px;
+    width: auto;
+    margin-right: auto;
     
 }
 
-.git{
-    position: absolute;
-    bottom: 0px;
-    right: 0px;
-    margin: 10px;
-}
-
-.git:hover{
-    background-color: black;
-    border: none;
-    border-radius: 15px;
+.sessao01{
+    padding: 19px;
+    background-color: #FFD2C7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     
 }
 
-.linkedin{
-    position: absolute;
-    bottom: 0px;
-    right: 90px;
-    margin: 10px;
- 
+.sessao01 h1{
+    color: #F06A8A;
+    font-size: 55px;
 }
 
-.linkedin:hover{
-    background-color: black;
-    border: none;
-    border-radius: 10px;
+.sessao01 h2{
+    color: white;
+    font-size: 40px;
 }
-main > .minha_foto{
-    height: 300px;
-    width: 300px;
-    margin: 100px;
-    padding: 100px;
-    border-radius: 50%;
+
+.sessao01 h3 {
+    color: white;
+    font-size: 30px;
+    
     
 }
+
+.sessao01 span{
+    color: #F06A8A;
+}
+
+.sessao01 a {
+    padding: 20px;
+}
+
+.foto_tay {
+    height: 400px; /* Altura da imagem */
+    width: auto; /* Largura automática */
+    border-radius: 50%; 
+    box-shadow: 5px 5px 5px 5px #f06a8938;
+    padding: 20px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
