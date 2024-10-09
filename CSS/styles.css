@@ -13,20 +13,25 @@ header{
     align-items:center;   
 }
 
-nav {
+.nav_home  {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-grow: 1;
 }
 
-nav > a {
+.nav_home > a{
     color: white;
     margin: 25px;
     font-size: 25px;
     text-decoration: none;
-    
 }
+
+.nav_home > a:hover{    
+    color: #F06A8A;
+}
+
+
 header > img {
     height: 120px;
     width: auto;
@@ -35,7 +40,7 @@ header > img {
 }
 
 .sessao01{
-    padding: 19px;
+    min-height: 85vh;
     background-color: #FFD2C7;
     display: flex;
     justify-content: center;
@@ -65,18 +70,65 @@ header > img {
     color: #F06A8A;
 }
 
-.sessao01 a {
-    padding: 20px;
+.nav_sessao01{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
 }
 
-.foto_tay {
-    height: 400px; /* Altura da imagem */
-    width: auto; /* Largura automática */
+.nav_sessao01 > a{
+    margin-top: 10px;
+    margin-right: 30px
+}
+
+.nav_sessao01 > a:hover{
+    background-color: #F06A8A;
+    border-radius: 20px;
+}
+
+
+.foto_tay{
+    height: 400px; 
+    width: auto; 
     border-radius: 50%; 
     box-shadow: 5px 5px 5px 5px #f06a8938;
-    padding: 20px;
+    padding: 5px;
+    margin-right: 40px;
     
 }
+
+.foto02{
+    height: 400px;
+    width: auto;
+    border-radius: 50%;
+    padding: 10px;
+    margin-left: 40px;
+}
+
+.sessao02{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sessao02 p  {
+    font-size: 20px;
+    text-align: justify;
+    margin: 10px;
+    padding: 10px;
+    width: 500px;
+    background-color: #8fbcdf75;
+    border-radius: 10%;
+}
+
+
+
+
+
+
+
 
 
 
