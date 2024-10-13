@@ -175,10 +175,11 @@ footer{
     background-color: #015958;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between
 }
 
 footer p{
+    margin-left: 80px;
     color: white;
     font-weight: lighter;
     font-size: 20px;
@@ -196,7 +197,6 @@ footer span{
 
 footer a{
     margin-right: 10px;
-    margin-left: auto;
     color: white;
     text-decoration: none;
     font-size: 20px;
