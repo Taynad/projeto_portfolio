@@ -157,12 +157,25 @@ header > img {
     justify-content: center;
 }
 
+.container img{
+    height: 300px;
+    width: auto;
+    border-radius: 5px;
+    border: 5px 5px solid #015958;
+    margin: 20px;
+}
+
+.container a:hover{
+    border-radius: 10px;
+    background-color: #0CABA8;
+}
+
 footer{
-    padding: 10px;
+    padding: 10px       ;
     background-color: #015958;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 footer p{
@@ -176,6 +189,11 @@ footer p{
     
 }
 
+footer span{
+    font-weight: bold;
+    margin-left: 5px;
+}
+
 footer a{
     margin-right: 10px;
     margin-left: auto;
@@ -187,7 +205,55 @@ footer a{
 
 footer > a:hover{    
     color: #0FC2C0;
-    font-weight: bold;
+}
+
+@media screen and (max-width:768px ){
+    header{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav_home{
+        font-size: 20px;
+        margin: 10px;
+    }
+
+    .sessao01{
+        flex-direction: column;
+    }
+
+    .sessao01 img{
+        height: 250px;
+        width: auto;
+    }
+
+    .nav_sessao01{
+        flex-direction: column;
+
+    }
+
+    .sessao02 p{
+        width: 400px;
+    }
+
+    .sessao03 p{
+        width: 400px;
+    }
+
+    .container{
+        flex-direction: column;
+    }
+
+    footer p {
+        font-size: 18px;
+        
+    }
+
+    footer a {
+        font-size: 18px;
+    }
+    
+    
 }
 
 
